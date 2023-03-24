@@ -7,8 +7,4 @@ export const load = async ({ fetch, params }) => {
   const apiData = await response.json();
 }
   
-  return {
-    
-    albums: apiData, 
-    
-  }
+
